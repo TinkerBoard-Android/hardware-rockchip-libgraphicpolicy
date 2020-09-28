@@ -9,6 +9,7 @@ cc_prebuilt_library_shared {
             srcs: ["arm64-v8a/libgraphicpolicy.so"],
         },
     },
+    shared_libs: ["liblog","libstdc++"],
     strip: {
         none: true,
     },

@@ -13,6 +13,18 @@
 int graphic_policy(int obj_bug_id);
 
 
+#define GPID_SF_NODRAW  0001
+#define GPID_SF_MIRROR  0002
+#define GPID_HWC_4K_SKIPLINE  1001
+#define GPID_HWC_BOOTANIMATION  1002
+#define GPID_GRALLOC_CTS1  2001
+#define GPID_GRALLOC_CTS2  2002
+#define GPID_GUI_FPSCTL  3001
+#define GPID_HWUI_CLOSE  4001
+#define GPID_MALI_FRAMESKIP  5001
+#define GPID_MALI_KODI  5002
+#define GPID_PVR_CTS1  6001
+#define GPID_PVR_CTS2  6002
 
 
 
