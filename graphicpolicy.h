@@ -15,6 +15,7 @@ int graphic_policy(int obj_bug_id);
 
 #define GPID_SF_NODRAW  0001
 #define GPID_SF_MIRROR  0002
+#define GPID_SF_KEYSTONE 0003
 #define GPID_HWC_4K_SKIPLINE  1001
 #define GPID_HWC_BOOTANIMATION  1002
 #define GPID_GRALLOC_CTS1  2001
